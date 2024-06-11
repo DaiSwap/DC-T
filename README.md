@@ -2,7 +2,7 @@ A. Python script designed to control drone using the DroneKit library while simu
 
 B. 2D to 3D spatial mapping
 
-### A.
+# A.
 1. **Library Imports:**
     - `cv2` (OpenCV): Used for capturing video from the camera and displaying it.
     - `numpy`: Image processing tasks.
@@ -32,12 +32,12 @@ B. 2D to 3D spatial mapping
     - The loop continues until the 'q' key is pressed.
     - Finally, the script releases the camera, closes all OpenCV windows, and closes the connection to the drone.
 
-# Purpose
+### Purpose
 
 The script aims to demonstrate a basic example of autonomous drone control based on real-time visual input. Specifically, it uses computer vision to detect a hotspot and adjusts the drone’s position to keep the hotspot centered in the camera's field of view.
 
 
-### B.
+# B.
 2D image coordinates from YOLO detections into real-world coordinates using camera calibration data and a fixed altitude. Here's a more detailed explanation of how each part of your code works and how you can use this information to guide a drone:
 
 
@@ -53,7 +53,7 @@ The script aims to demonstrate a basic example of autonomous drone control based
 3. **Main Function**:
    - `main()`: Loads the camera calibration data, defines example image coordinates, sets a fixed altitude, and then converts the image coordinates to real-world coordinates. Finally, it prints the results.
 
-# Using Coordinates to Guide the Drone
+### Using Coordinates to Guide the Drone
 
 Now, to use these real-world coordinates to guide the drone, you can integrate this process with your drone control logic. Here’s how you can do it:
 
