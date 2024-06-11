@@ -1,4 +1,5 @@
 A. Python script designed to control drone using the DroneKit library while simultaneously utilizing the YOLO model for real-time object detection.
+
 B. 2D to 3D spatial mapping
 
 ### A.
